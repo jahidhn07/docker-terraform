@@ -28,6 +28,7 @@ more at [here](https://docs.docker.com/get-started/overview/)
 Terraform
 ===========
 If you want to deploy this application in aws EC2. Then at first need to install terraform in local workstation. After that you should download the .tf file from git repo. 
+You should change access, secret key & region in main.tf file
 Run,
-terraform init
+terraform init and
 terraform apply
