@@ -24,5 +24,10 @@ drop to django shell
 docker-compose exec web python manage.py shell
 ```
 more at [here](https://docs.docker.com/get-started/overview/)
-## Contributing
-You can do whatever you want with this repo.
+
+Terraform
+===========
+If you want to deploy this application in aws EC2. Then at first need to install terraform in local workstation. After that you should download the .tf file from git repo. 
+Run,
+terraform init
+terraform apply
