@@ -11,14 +11,13 @@ terraform {
 
 provider "aws" {
   profile = "default"
- #region  = "us-east-2"
   access_key = "XXXXXXXXXXXXX"
   secret_key = "XXXXXXXXXXXXX"
   region = "XXXXXXXXXXXXX"
 }
 
 resource "aws_instance" "app_server" {
-  ami             = "ami-0bd6906508e74f692"
+  ami             = "ami-XXXXXXXXXXX"
   instance_type   = "t2.micro"
   key_name        = "docker"
   user_data	= file("file.sh")
