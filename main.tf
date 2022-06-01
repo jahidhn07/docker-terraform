@@ -12,9 +12,9 @@ terraform {
 provider "aws" {
   profile = "default"
  #region  = "us-east-2"
-  access_key = "AKIA5U7U4GLFAKPFCBGX"
-  secret_key = "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"
-  region = "ap-southeast-1"
+  access_key = "XXXXXXXXXXXXX"
+  secret_key = "XXXXXXXXXXXXX"
+  region = "XXXXXXXXXXXXX"
 }
 
 resource "aws_instance" "app_server" {
